@@ -10,32 +10,29 @@ description: Official documentation for the BookSMP plugin – all abilities, bo
 repository: https://github.com/BannerORG/BookSMP
 baseurl: ""  # leave empty unless using a subpath
 
-
+# Remote theme (dark) – replaces theme:
 remote_theme: pages-themes/slate@v0.3.0
 plugins:
   - jekyll-remote-theme
-  
-# Theme settings
-theme: Slate   # Dark theme, clean and readable
 
 # Markdown settings
 markdown: kramdown
 kramdown:
-  input: GFM  # GitHub Flavored Markdown for tables, code blocks, etc.
+  input: GFM  # GitHub Flavored Markdown
 
-# Navigation links (appear at the top if using some Jekyll themes)
+# Navigation links (appear at the top if theme supports it)
 nav:
   - title: Home
     url: /
-  - title: Movement Book
+  - title: 📕 Movement Book
     url: /books/movement/
-  - title: Telekinesis Book
+  - title: 📗 Telekinesis Book
     url: /books/telekinesis/
-  - title: Berserk Book
+  - title: 📙 Berserk Book
     url: /books/berserk/
-  - title: Guardian Book
+  - title: 📘 Guardian Book
     url: /books/guardian/
-  - title: Shadow Book
+  - title: 📓 Shadow Book
     url: /books/shadow/
 
 # Optional: Footer
