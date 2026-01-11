@@ -11,7 +11,7 @@ repository: https://github.com/BannerORG/BookSMP
 baseurl: ""  # leave empty unless using a subpath
 
 # Remote theme (dark) – replaces theme:
-remote_theme: pages-themes/slate@v0.3.0
+remote_theme: pages-themes/slate
 plugins:
   - jekyll-remote-theme
 
