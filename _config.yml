@@ -1,26 +1,17 @@
-# -----------------------------
-# BookSMP Documentation Config
-# -----------------------------
-
-# Site settings
 title: BookSMP Documentation
 description: Official documentation for the BookSMP plugin – all abilities, books, and commands
 
-# GitHub repository info (optional but nice)
 repository: https://github.com/BannerORG/BookSMP
-baseurl: ""  # leave empty unless using a subpath
+baseurl: ""
 
-# Remote theme (dark) – replaces theme:
-remote_theme: pages-themes/slate
+remote_theme: pages-themes/slate   # no version, latest used
 plugins:
   - jekyll-remote-theme
 
-# Markdown settings
 markdown: kramdown
 kramdown:
-  input: GFM  # GitHub Flavored Markdown
+  input: GFM
 
-# Navigation links (appear at the top if theme supports it)
 nav:
   - title: Home
     url: /
@@ -35,8 +26,5 @@ nav:
   - title: 📓 Shadow Book
     url: /books/shadow/
 
-# Optional: Footer
 footer: "© 2026 BannerORG – BookSMP Plugin Documentation"
-
-# Optional: Show last updated timestamp
 show_last_updated: true
