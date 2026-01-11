@@ -9,3 +9,6 @@ All the (Public) info is stored about the BookPL plugin.
 - [📙 Berserk Book](books/berserk/)
 - [📘 Guardian Book](books/guardian/)
 - [📓 Shadow Book](books/shadow/)
+
+
+'Version: 2.0.1'
