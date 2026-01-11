@@ -10,6 +10,11 @@ description: Official documentation for the BookSMP plugin – all abilities, bo
 repository: https://github.com/BannerORG/BookSMP
 baseurl: ""  # leave empty unless using a subpath
 
+
+remote_theme: pages-themes/slate@v0.3.0
+plugins:
+  - jekyll-remote-theme
+  
 # Theme settings
 theme: Slate   # Dark theme, clean and readable
 
